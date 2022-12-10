@@ -1,5 +1,6 @@
 import React from 'react'
 import Card from '../Card/Card'
+import './List.scss'
 const List = () => {
     const data = [
         {
@@ -40,7 +41,9 @@ const List = () => {
         }
     ]
   return (
-    <div>{data.map((item) => (
+    
+    <div className="list">
+        {data.map((item) => (
         <Card item={item} key={item.id} />
     ) )}</div>
   )
