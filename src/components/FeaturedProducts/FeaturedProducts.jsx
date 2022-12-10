@@ -14,7 +14,7 @@ const FeaturedProducts = ({type}) => {
         },
         {
             id: 2,
-            img: 'https://images.pexels.com/photos/974911/pexels-photo-974911.jpeg?auto=compress&cs=tinysrgb&w=1600',
+            img: 'https://images.pexels.com/photos/1778412/pexels-photo-1778412.jpeg?auto=compress&cs=tinysrgb&w=1600',
             img2: 'https://images.pexels.com/photos/3807769/pexels-photo-3807769.jpeg?auto=compress&cs=tinysrgb&w=1600',
             title: 'T-shirt',
             isNew: true,
