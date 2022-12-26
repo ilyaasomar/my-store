@@ -11,15 +11,15 @@ const useFetch = (url) => {
           setLoading(true)
           const res = await makeRequest.get(url);
           setData(res.data.data);
-          console.log(res)
+          // console.log(res.data.data)
         } catch (err) {
-          console.log(err);
+          setError(true)
         }
         setLoading(false)
       };
       fetchData();
     }, [url]);
-    return [data, loading, error];
+    return {data, loading, error};
   
   }
 export default useFetch;
